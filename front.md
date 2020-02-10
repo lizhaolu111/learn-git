@@ -3,15 +3,23 @@
 ## 标签
 
 * head 
+
 * body
+
 * link 表示链接外部样式表
+
 * meta 不显示在网页上，只能在源代码中看到
+
 * div 将网页内容分成区域
+
 * section 定义文章中的节，比如章节、页眉、页脚或文章中的其他部分
+
 * header 定义文档或者文档的一部分区域的页眉
+
 * abbr 可以表示缩写的英语词语
 
 * map
+
   * 不是地图标签，事映射标签
   * 如果设置了id属性的话，必须与name属性的值一样
 
@@ -104,6 +112,7 @@
 ### 表单标签
 
 * form  
+
   * action 表单提交的地址
   * target 与a标签类似，打开新的窗口
 
@@ -149,7 +158,7 @@
   * minlength
     * 为文本输入框时，设置输入的最小长度
     * 不过兼容性不太好，不少浏览器没有实现
-  
+
   * placeholder
     * 提示文本框内该输入相关的信息
   * autofocus
@@ -192,11 +201,13 @@
     
 
 * select
+
   * 下拉选择框
   * 属性
     * multiple  无属性值，表示多选，多选时就不是下拉样式了
 
 * option
+
   * value 选择了该项目后它所属的select元素的name值
   * selected 默认被选中 (无属性值)
   * disabled 表示该项被禁用 （无属性值）
@@ -205,33 +216,47 @@
 * optgroup/hgroup/colgroup  给option分组，用label属性表示这个分组的名字，有一个disabled属性，如果设置这个属性，整组标签都会被禁用
 
 * fieldset 
+
   * 这个标签是用来给输入域分组的
   * fieldset有一个disabled属性，如果它有这个属性，其内的所有输入域都将被禁用
 
 * legend
-  
+
 * 只能作为fieldest的子元素用来标识这组输入域的名字，基本上没有其它用处
-  
+
 * table
+
 * caption  表格标题
+
 * thead 表头
+
 * tobody 表格主体
+
 * tfoot 表尾
+
 * tr 表格行
+
 * th 用在表头单元格，表示文字加粗
+
 * td 表示数据单元格
+
 * colspan 跨列
+
 * rowspan 跨行
+
 * colgroup
+
   * 可以用来分组
   * span属性，表示选择多列
 
 * col
+
   * 用来设置表格列的属性和样式
   * span属性，表示选择多少列表格
   * col/colgroup 必须出现在caption后面，thead/tbody的前面
 
-*  cellspacing=0
+* cellspacing=0
+
 * tr或者td or th不能有其它并列标签,否则会识别错误
 
 
@@ -246,3 +271,5 @@
 * git log 查看提交日志/历史
 * git remote add origin  https://github.com/lizhaolu111/learn-git.git  在githup上面创建一个仓库
 * git push -u origin master 将本地与远程关联
+
+ 
